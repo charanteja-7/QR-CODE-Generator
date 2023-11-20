@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR CODE GENERATOR</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headings">
+        <h1>QR CODE GENERATOR</h1>
+        <h2>Enter anything to generate QR Code</h2>
+      </div>
+      <div class="Input">
+        <label class="label" for="value">Enter value:</label>
+        <input type="text" id="value" placeholder="Enter text/url" />
+        <button class="submit" id="submit" >Submit</button>
+      </div>
+      <canvas class="qrcode" id="qrcode"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
